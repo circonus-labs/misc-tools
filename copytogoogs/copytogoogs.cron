@@ -1,0 +1,1 @@
+find /directory/to/backup/ -mtime -1 -type f | while read line; do nice ./copytogoogle.sh $line ; done
